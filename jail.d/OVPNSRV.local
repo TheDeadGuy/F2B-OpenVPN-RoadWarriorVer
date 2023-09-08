@@ -1,0 +1,9 @@
+[OVPNSRV]
+enabled = true
+port = 1194
+backend = systemd
+protocol = udp
+maxretry = 3
+bantime = 86400
+findtime = 43200
+filter = OVPNSRV
